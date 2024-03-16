@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/abea8c122e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/abea8c122e.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logo" src="C:\Users\jeudy\OneDrive\Desktop\nike\img\logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+                  <li><a class="dropdown-item" href="ventas.html">Jordan</a></li>
+                  <li><a class="dropdown-item" href="Dunk.html">Dunk</a></li>
+                  <li><a class="dropdown-item" href="Dunk.html">Colaboraciones</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="perfil.html">Perfil</a></li>
+                  <li><a class="dropdown-item" href="formulario.html">Solicitud</a></li>
+                  <li><a class="dropdown-item" href="pedidos.html">Pedidos</a></li>
+                </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                  </li>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <style>
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 10%;
+    position: fixed;
+    max-width: 1400px;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.dropdown-toggle{
+    color: rgb(243, 0, 0);
+}
+.dropdown-toggle:hover{
+    color: #f1f7ff;
+}
+.dropdown-menu{
+    background-color: #0a1a2a;
+}
+.dropdown-item{
+    color: red;
+}
+.container-fluid{
+    background-color: #0a141d;
+}
+.btn-outline-success{
+    color: #f1f7ff;
+    background-color: rgb(243, 0, 0);
+    border-radius: 50px;
+    border: none;
+}
+.btn-outline-success:hover{
+    color: #f1f7ff;
+    background-color: rgb(3, 0, 0);
+    border-radius: 20px;
+    border: none;
+}
+    </style>
+        <div class="row">
+            <div class="col-1">
+                <span>TENIS NIKE AIR</span>
+                <p>Adquiere aqui los mejores tenis de la marca Nike y aprovecha las mejores ofertas.</p>
+                <h2>4,500 $</h2>
+                <button type="button">Comprar ya</button>
+            </div>
+            <div class="col-2">
+                <div class="feature-img">
+                    <img src="img\air2.png" alt="">
+                </div>
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="img\air3.png" alt="">
+                    </div>
+                    <div class="small-img">
+                        <img src="img\air4.png" alt="">
+                    </div>
+                    <div class="small-img">
+                        <img src="img\air5.png" alt="">
+                    </div>
+                    <div class="small-img">
+                        <img src="img\air6.png" alt="">
+                    </div>
+                </div>
+                <h2 class="nike">NIKE</h2>
+            </div>
+        </div>  
+<style>
+.row{
+height: 100%;
+width: 100%;
+display: flex;
+background: #1e2227;
+}
+.col-1, .col-2{
+flex-basis: 50%;
+height: 100%;
+display: flex;
+justify-content: center;
+flex-direction: column; 
+}
+.col-2{
+    background: red;
+    padding-top: 8%;
+    position: relative;
+}
+.col-1{
+    padding-left: 8%;
+}
+.col-1 span{
+    font-size: 74px;
+    line-height: 100px;
+    margin-bottom: 5px;
+    color: #f1f7ff;
+}
+.col-1 h2{
+    font-size: 35px;
+    margin-top: 60px;
+    font-weight: 500;
+    color: #f1f7ff;
+}
+.col-1 p{
+    color: #f1f7ff;
+}
+.nike{
+    color: #f1f7ff;
+}
+button{
+    display: inline-block;
+    width: fit-content;
+    padding: 18px 50px;
+    background: red;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.feature-img{
+    width: 100%;
+    text-align: center;
+}
+.feature-img img{
+    width: 80%;
+    transform: rotate(-20deg);
+}
+.small-img-row{
+    display: flex;
+    width: 80%;
+    margin: 70px auto 0;
+    align-items: center;
+    justify-content: space-around;
+}
+.small-img{
+    width: 80px;
+    height: 80px;
+    background: #ccc;
+}
+.small-img img{
+    width: 120px;
+    transform: translate(-50px, 20px) rotate(-20deg);
+}
+.small-img:nth-child(1){
+    background: #b9c8ff;
+}
+.small-img:nth-child(2){
+    background: #91ffdd;
+}
+.small-img:nth-child(3){
+    background: #ff6767;
+}
+.small-img:nth-child(4){
+    background: #9dff90;
+}
+.col-2 h2{
+    position: absolute;
+    left: 10%;
+    top: 22%;
+    font-size: 130px;
+    opacity: 0.3;
+}
+button:hover{
+    background: #aa0505;
+    transform: translateY(-5px)
+}
+</style>
+
+        
+    
+        <footer class="pie-pagina">
+            <div class="grupo1">
+             <div class="box">
+                 <figure>
+                     <a href="#">
+                         <img src="img/logo.png" alt="logo de nike">
+                     </a>
+                 </figure>
+             </div>
+             <div class="box">
+                 <h2>SOBRE NOSOTROS</h2>
+                 <P>Nuestro objetivo como empresa es hacer que el cliente se sienta conforme.</P>
+                 <P>Para cualquier solicitud hacia nosotros por favor ir al apartado de solicitud.</P>
+             </div>
+             <div class="box">
+                 <h2>SIGUENOS</h2>
+                 <div class="red-social">
+                     <a href="#" class="fa fa-facebook"></a>
+                     <a href="#" class="fa fa-instagram"></a>
+                     <a href="#" class="fa fa-twitter"></a>
+                     <a href="#" class="fa fa-youtube"></a>
+                 </div>
+             </div>
+            </div>
+            <div class="grupo2">
+               <small>&copy; 2023 <b>NIKE DOMINICANA</b> - Todos los Derechos Reservados.</small>
+            </div>
+         </footer>
+         <style>
+            .pie-pagina{
+        width: 100%;
+        background-color: #0a141d;
+    }
+    .pie-pagina .grupo1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    }
+    .pie-pagina .grupo1 .box figure{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pie-pagina .grupo1 .box figure img{
+        width: 250px;
+    }
+    .pie-pagina .grupo1 .box h2{
+        color: #fff;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    .pie-pagina .grupo1 .box p{
+        color: #efefef;
+        margin-bottom: 10px;
+    }
+    .pie-pagina .grupo1 .red-social a{
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: #fff;
+        margin-right: 10px;
+        background-color: #0d2033;
+        text-align: center;
+        transition: all 300ms ease;
+    }
+    .pie-pagina .grupo1 .red-social a:hover{
+        color: aqua;
+    }
+    .pie-pagina .grupo2{
+        background-color: #0a1a2a;
+        padding: 15px 10px;
+        text-align: center;
+        color: #fff;
+    }
+    .pie-pagina .grupo2 .small{
+        font-size: 15px;
+    }
+    @media screen and (max-width:800px){
+        .pie-pagina .grupo1{
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+            padding: 35px 0px;
+        }
+    }
+    
+        </style>
+</body>
+</html>
